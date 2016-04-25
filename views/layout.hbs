@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+
+    {{#each cssList}}
+    <link rel="stylesheet" href="{{this}}" media="screen" title="no title" charset="utf-8">
+    {{/each}}
+  </head>
+  <body>
+    {{{body}}}
+    {{#each jsList}}
+    <script src="{{this}}" charset="utf-8"></script>
+    {{/each}}
+  </body>
+</html>

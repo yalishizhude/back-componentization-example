@@ -1,0 +1,1 @@
+.titles{font-size:20px}.titles .title{color:blue}.titles .title:first-child{color:red}.titles .title:nth-child(2){color:green}
